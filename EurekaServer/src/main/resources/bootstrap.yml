@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: development
+  application:
+    name: Eureka-Server
+  cloud:
+    config:
+      uri: http://INPUHJPC04133:5055
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+server:
+  host: INPUHJPC04133

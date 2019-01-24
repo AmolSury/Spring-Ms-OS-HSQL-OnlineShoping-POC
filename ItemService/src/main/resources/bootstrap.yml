@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: development,chaos-monkey
+  application:
+    name: Item-Service
+  cloud:
+    config:
+      uri: http://INPUHJPC04133:5055
+  datasource:
+    url: jdbc:hsqldb:hsql://INPUHJPC04133/
+    username: SA
+    password: 
+    driver-class-name: org.hsqldb.jdbcDriver
+  main:
+    allow-bean-definition-overriding: true

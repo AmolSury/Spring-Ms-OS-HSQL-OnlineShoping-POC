@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ItemService
+Bundle-SymbolicName: ItemService
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.vipul,
+ com.vipul.aspect,
+ com.vipul.config,
+ com.vipul.datamodel,
+ com.vipul.dto,
+ com.vipul.repository,
+ com.vipul.resource,
+ com.vipul.service
